@@ -26,6 +26,6 @@ OPENAI_API_KEY=your-api-key
 
 ## Running the Service with Docker Compose
 ```bash
-docker-compose up --build
+docker compose -f docker_compose/app.yaml --env-file .env up --build -d
 ```
 
