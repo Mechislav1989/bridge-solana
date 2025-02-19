@@ -104,10 +104,8 @@ The system is composed of several key components that interact through a sequenc
 Future Enhancements
 
 Adding AI-driven auto-corrections for errors detected by Clippy and Prusti.
-
 Expanding contract templates for different use cases.
-
-Introducing caching mechanisms to reduce OpenAI API calls.
+Introducing caching mechanisms to reduce OpenAI API calls(Redis).
 
 ## Installation & Setup
 
