@@ -5,12 +5,11 @@
 This project is designed to automate the generation, analysis, and deployment of Solana smart contracts using OpenAI's API for code generation, static analysis tools (Clippy and Prusti) for validation, and Solana CLI for deployment. The system follows a structured approach, integrating FastAPI for request handling, dependency injection for modularity, and a domain-driven design (DDD) to maintain clear business logic.
 
 ## Architecture Diagram
-
+``````plaintext
 [User]
-|
-|
-▼
-
+    |
+    |
+    ▼
 [FastAPI]---▶[Generation Service]---▶[OpenAI Adapter]
           │                       └─▶[StaticPromptTemplate]
           │
@@ -20,6 +19,9 @@ This project is designed to automate the generation, analysis, and deployment of
           ├─▶[Deployment Service]---▶[Solana Deployer]
           │
           └─▶[Postgres Repository]--▶[PostgreSQL]
+
+``````
+
 
 The system is composed of several key components that interact through a sequence of requests and responses. Below is a breakdown of the architecture:
 
