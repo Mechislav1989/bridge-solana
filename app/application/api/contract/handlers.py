@@ -32,7 +32,7 @@ def process_contract_generation(
 
 
 @router.post(
-    '/',
+    '/generate',
     response_model=ContractResponse,
     status_code=status.HTTP_201_CREATED,
     description='',
