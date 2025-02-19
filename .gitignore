@@ -6,3 +6,4 @@ r.txt
 .ruff_cache
 .DS_Store
 bridge/
+.venv/
