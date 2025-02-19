@@ -7,8 +7,10 @@ This project is designed to automate the generation, analysis, and deployment of
 ## Architecture Diagram
 
 [User]
-    │
+    |
+    |
     ▼
+
 [FastAPI]---▶[Generation Service]---▶[OpenAI Adapter]
           │                       └─▶[StaticPromptTemplate]
           │
